@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página HTML5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Página Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Inicio</a></li>
+                <li><a href="#seccion2">Acerca de</a></li>
+                <li><a href="https://example.com" target="_blank">Enlace externo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="seccion1">
+            <h2>Sección Principal</h2>
+            <p>Este es un <strong>ejemplo</strong> de párrafo con <em>formato</em>.</p>
+            <img src="assets/img/imagen1.jpg" alt="Descripción de la imagen" width="300">
+            <video controls width="300">
+                <source src="<iframe width="560" height="315" src="https://www.youtube.com/embed/LeHdjrsEmFM?si=43Q-KJI1yK_CGYmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </section>
+
+        <section id="seccion2">
+            <h3>Listas</h3>
+            <ol>
+                <li>Paso uno</li>
+                <li>Paso dos</li>
+                <li>Paso tres</li>
+            </ol>
+            <ul>
+                <li>Elemento A</li>
+                <li>Elemento B</li>
+                <li>Elemento C</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Tabla de Información</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ana</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Juan</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>Carlos</td>
+                        <td>19</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article>
+            <h3>Formulario de contacto</h3>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br>
+
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" name="correo"><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2025 - Mi Sitio Web Personal</p>
+    </footer>
+</body>
+</html>
