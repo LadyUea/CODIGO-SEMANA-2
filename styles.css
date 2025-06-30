@@ -1,25 +1,25 @@
 /* Botón personalizado */
 .btn-primary {
-  background-color: #ff5733;
+  background-color: #ff333a;
   border: none;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .btn-primary:hover {
-  background-color: #14e0a6;
+  background-color: #33c299;
   transform: scale(1.05);
 }
 
 /* Cards */
 .card {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 8px #2d04a526;
   border-radius: 10px;
 }
 
 /* Media query para pantallas pequeñas */
 @media (max-width: 576px) {
   body {
-    background-color: #f0f0f0;
+    background-color: #ee8686;
   }
 
   h1 {
